@@ -81,6 +81,9 @@ python demo.py --imagedir=data/mav0/cam0/data --calib=calib/euroc.txt --t0=150
 python demo.py --imagedir=data/rgbd_dataset_freiburg3_cabinet/rgb --calib=calib/tum3.txt
 ```
 
+```Python
+python demo.py --imagedir=data/rgbd_dataset_freiburg3_cabinet/rgb --calib=calib/tum3.txt --disable_vis --reconstruction_path=data/rgbd_dataset_freiburg3_cabinet
+```
 
 **Running on your own data:** All you need is a calibration file. Calibration files are in the form 
 ```
